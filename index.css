@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 100vh;
+    background: url(./black-texture-background-wallpaper-thumb.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, .5);
+    border: 1px solid grey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav a,
+a {
+    color: white;
+    font-weight: 500;
+    justify-content: space-between;
+    margin-left: 1.2rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 238, 0);
+    font-weight: 500;
+    justify-content: space-between;
+    margin-left: 1.2rem;
+
+}
+
+main {
+    display: flex;
+    margin: 5px;
+}
+
+.text {
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 25px rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 30px;
+    flex: 4;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+img {
+    width: 250px;
+    border-radius: 25px;
+}
+
+.picture {
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 25px rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, 0.022);
+    flex: 1;
+    border-radius: 25px;
+    padding: 9px;
+}
+
+footer {
+    border: 1px solid grey;
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(1px);
+
+}
