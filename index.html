@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aboutudo7</title>
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -40,5 +40,28 @@
         <a href="">TICTOK</a>
     </footer>
 </body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBJmW0b8LrAMdCPlTtoGjy8LdhpEMZcnGA",
+      authDomain: "my-portfolio-50171.firebaseapp.com",
+      projectId: "my-portfolio-50171",
+      storageBucket: "my-portfolio-50171.appspot.com",
+      messagingSenderId: "796101214736",
+      appId: "1:796101214736:web:9030c11e5e47d45b258095",
+      measurementId: "G-19S782BKMT"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 
 </html>
